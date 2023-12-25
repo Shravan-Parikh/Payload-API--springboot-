@@ -23,13 +23,8 @@ public class MyController {
 	@Autowired
 	private LoadService loadService;
 	
-	@GetMapping("/home")
-	public String home() {
-		return "this is home page";
-	}
 	
 	//GET  loads
-	
 	@GetMapping("/load")
 	public List<Load> getLoad()
 	{
