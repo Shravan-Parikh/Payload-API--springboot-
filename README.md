@@ -31,7 +31,9 @@ The Payload API exposes the following endpoints:
 }
 ```
 **Endpoint:** `GET /load`
+
 **Endpoint:** `GET /load/{loadId}`
+
 **Endpoint:** `delete /load/{loadID}`
 
 API details.
